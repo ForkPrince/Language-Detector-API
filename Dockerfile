@@ -4,7 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-RUN pip install flask ShortLanguageDetection
+RUN pip install flask ShortLanguageDetection waitress
 
 COPY . .
 

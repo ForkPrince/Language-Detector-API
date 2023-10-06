@@ -1,6 +1,4 @@
-FROM python:3.11.6-alpine3.18
-
-RUN apk update
+FROM python:3.11.6
 
 RUN mkdir /app
 
